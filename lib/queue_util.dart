@@ -88,5 +88,5 @@ class _TaskInfo {
   Function? doSomething;
   StreamController<_TaskInfo>? controller;
 
-  _TaskInfo(this.id, this.doSomething, {this.controller});
+  _TaskInfo(this.id, this.doSomething);
 }
